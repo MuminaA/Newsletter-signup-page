@@ -47,11 +47,11 @@
     <meta name="theme-color" content="#712cf9" />
 
     <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body class="text-center">
     <main class="form-signin w-100 m-auto">
-      <form>
+      <form action="/" method="POST">
         <img
           class="mb-4"
           src="images/9monthSub72.png"
@@ -60,35 +60,32 @@
           height="57"
         />
         <h1 class="h3 mb-3 fw-normal">Subscribe to My Newsletter</h1>
-
-        <div class="form-floating">
           <input
             type="text"
-            class="form-control"
+            name="fName"
+            class="form-control top"
             placeholder="First Name"
             required
+            autofocus
           />
-        </div>
-        <div class="form-floating">
             <input
               type="text"
-              class="form-control"
+              name="lName"
+              class="form-control middle"
               placeholder="Last name"
               required
             />
-          </div>
-        <div class="form-floating">
           <input
             type="email"
-            class="form-control"
+            name="email"
+            class="form-control bottom"
             placeholder="name@example.com"
             required
           />
-        </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">
-          Sign in
+          Sign up
         </button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+        <p class="mt-5 mb-3 text-muted">&copy; Mumina Abdi</p>
       </form>
     </main>
   </body>
